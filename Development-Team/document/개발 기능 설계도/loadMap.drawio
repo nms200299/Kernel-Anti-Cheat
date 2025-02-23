@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="페이지-1" id="vdPRs05Y516lquNXLvEG">
+    <mxGraphModel dx="1995" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;안티치트 드라이버&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="730" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-10" value="«보호 대상»&lt;br&gt;&lt;b&gt;게임 프로세스&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="594" y="298" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="440" as="sourcePoint" />
+            <mxPoint x="1100" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-16" target="tj8TqnCf9zXtnptwS7MN-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="565" />
+              <mxPoint x="190" y="565" />
+              <mxPoint x="190" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="tj8TqnCf9zXtnptwS7MN-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383" y="355" as="sourcePoint" />
+            <mxPoint x="409" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="489" y="355" />
+              <mxPoint x="489" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-11" target="tj8TqnCf9zXtnptwS7MN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-11" value="«차단 대상»&lt;br&gt;&lt;b&gt;게임 핵&lt;/b&gt;&lt;div&gt;&lt;b&gt;프로세스&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="274" y="330" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-28" target="tj8TqnCf9zXtnptwS7MN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="239.999322169059" y="107" width="170.000677830941" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;1-1. HookDLL&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="tj8TqnCf9zXtnptwS7MN-34">
+          <mxGeometry x="0.0006778309409867234" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-31" value="1-1-1. Detours 라이브러리로&lt;div&gt;차단/감시할 API Hooking 수행&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tj8TqnCf9zXtnptwS7MN-34">
+          <mxGeometry y="39" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-32" value="1-1-2. 또는, Inline Hook으로 실행될 API Code Patch" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tj8TqnCf9zXtnptwS7MN-34">
+          <mxGeometry y="79" width="154.5454545454545" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-37" value="&lt;div&gt;차단/감시할 API 호출시, HookDLL에 있는 함수로 JMP&lt;/div&gt;&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WriteProcessMemory() 등&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497" y="220" width="164.55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-41" target="tj8TqnCf9zXtnptwS7MN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-41" target="tj8TqnCf9zXtnptwS7MN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-41" value="«차단 대상»&lt;br&gt;&lt;b&gt;일반 프로세스&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="866" y="298" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-16" target="tj8TqnCf9zXtnptwS7MN-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;1. DLL Injection&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="330" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-19" value="1.&amp;nbsp;PsSetCreateProcessNotifyRoutine()로&amp;nbsp;&lt;div&gt;새로 생성되는 모든 프로세스 감시 &amp;amp; 인젝션&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550.0046153846154" width="320" height="13.846153846153847" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-21" value="2.&amp;nbsp;PsGetNextProcess()로 기존에 프로세스 순회 &amp;amp; 인젝션 (시스템 프로세스 제외)&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="585" width="310" height="13.85" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-26" value="3.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ZwOpenProcess(), ZwCreateThreadEx()로&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DLL Injection 수행&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="623.0015384615384" width="300" height="13.846153846153847" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-55" value="4.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PsSetLoadImageNotifyRoutine()으로&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;로드된 HookDLL 및 언로드된 HookDLL 관리&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="660.0015384615384" width="300" height="13.846153846153847" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-57" value="5.&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%224.%26amp%3Bnbsp%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(0%2C%200%2C%200)%2C%20rgb(255%2C%20255%2C%20255))%3B%26quot%3B%26gt%3BPsSetLoadImageNotifyRoutine()%EC%9C%BC%EB%A1%9C%26lt%3B%2Fspan%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(0%2C%200%2C%200)%2C%20rgb(255%2C%20255%2C%20255))%3B%26quot%3B%26gt%3B%EB%A1%9C%EB%93%9C%EB%90%9C%20HookDLL%20%EB%B0%8F%20%EC%96%B8%EB%A1%9C%EB%93%9C%EB%90%9C%20HookDll%20%EA%B4%80%EB%A6%AC%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22660.0015384615384%22%20width%3D%22300%22%20height%3D%2213.846153846153847%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;PsSetCreateThreadNotifyRoutine()으로&lt;div&gt;HookDLL 스레드 종료 감시&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="700.0015384615384" width="300" height="13.846153846153847" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;2. 자가 보호&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-46" value="1. MiniFilter로 게임 프로세스 경로 및 드라이버 경로에&lt;br&gt;&lt;div&gt;파일 생성/수정/삭제/이동 요청 차단&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="550" width="320" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-47" value="2.&amp;nbsp;CmRegisterCallbackEx()로 게임 프로세스 관련&lt;div&gt;레지스트리에 생성/수정&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/삭제 요청 차단&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="586" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-48" value="6.&amp;nbsp;ObRegisterCallbacks()를 이용한&lt;div&gt;HookDLL 스레드 종료 차단&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="740" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-58" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-59" value="Kernel (Ring 0)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="458.07" width="90" height="13.85" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-60" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-61" value="User (Ring 3)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="408.07" width="90" height="13.85" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-62" value="3.&amp;nbsp;DriverObject-&amp;gt;DriverUnload NULL 설정 및&lt;br&gt;드라이버 레퍼런스 카운트 관리로 드라이버 종료 방지" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="623.85" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+          <mxGeometry x="740" y="308" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-45" target="tj8TqnCf9zXtnptwS7MN-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-73" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+          <mxGeometry x="955" y="392.99" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-76" value="파일 수정/생성/삭제/이동 차단&lt;div&gt;레지스트리 생성/수정/삭제 차단&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="704" y="275" width="280" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-77" value="&lt;div&gt;&lt;div&gt;드라이버 언로드 차단&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="404.92" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-79" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+          <mxGeometry x="504" y="307" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-80" value="Kernel Level DLL Injection" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="74.55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-81" value="User Level&lt;div&gt;API Hooking&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="288" width="74.55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-85" value="HookDLL 스레드 종료 차단&amp;amp;감시" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="399.92" width="187" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-86" value="보호 대상에 대한 접근시,&lt;div&gt;API별 에러 값 return&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435.45" y="120" width="154.55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tj8TqnCf9zXtnptwS7MN-28" target="tj8TqnCf9zXtnptwS7MN-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-88" value="User Level&lt;div&gt;API Hooking&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695.45" y="170" width="74.55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tj8TqnCf9zXtnptwS7MN-90" value="후킹 할 API :&lt;div&gt;1. User-mode 후킹 관련 API&lt;br&gt;&lt;div&gt;2. 메모리 접근 관련 API&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. 스레드 접근 관련 API&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. DLL 로드 관련&amp;nbsp; API&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;5. 프로세스에 로드된 모듈(DLL) 조회 API&lt;/div&gt;&lt;div&gt;6. 안티디버깅 관련 API&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="104.99999999999999" y="38" width="241.55" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
