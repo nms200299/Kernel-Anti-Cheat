@@ -9,17 +9,15 @@
 
 - Windows OS별 Injection 기법 유효 여부
 
-|Injection 기법|XP(sp.n) x86|XP(sp.n) x64|7(sp.n) x86|7(sp.n) x64|10 22H2 x86|10 22H2 x64|11 x64|
-|---|---|---|---|---|---|---|---|
-|DLL Injection (CreateRemoteThread)|O|O|O|O|O|O|O|
-|DLL Injection (NtCreateThread)|X|X|O|O|O|O|O|
-|DLL Injection (SetWindowsHookEx)|O|O|O|O|O|O|O|
-|IAT Hooking|O|O|O|O|O|O|O|
-|PE Injection (CreateRemoteThread)|X|X|O|O|O|O|O|
-|PE Injection (NTCreateThreadEX)|X|X|O|O|O|O|O|
-|Process Hollowing|O|O|O|O|O|O|O|
-|Reflective DLL Injection|X|X|O|△|O|X|X|
-|Thread Injection|O|O|O|O|O|O|X|
-|Trampoline API Hooking|O|O|O|O|X|X|X|
-
-
+| Injection 기법                     | XP(sp.3) x86 | XP(sp.1) x64 | 7(sp.1) x86 | 7(sp.1) x64 | 10 22H2 x86 | 10 22H2 x64 | 11 24H2 x64 |
+| ---------------------------------- | ------------ | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| DLL Injection (CreateRemoteThread) | O            | O            | O           | O           | O           | O           | O           |
+| DLL Injection (NtCreateThread)     | X            | X            | O           | O           | O           | O           | O           |
+| DLL Injection (SetWindowsHookEx)   | O            | O            | O           | O           | O           | O           | O           |
+| IAT Hooking                        | O            | O            | O           | O           | O           | O           | O           |
+| PE Injection (CreateRemoteThread)  | X            | X            | O           | O           | O           | O           | O           |
+| PE Injection (NTCreateThreadEX)    | X            | X            | O           | O           | O           | O           | O           |
+| Process Hollowing                  | O            | O            | O           | O           | O           | O           | O           |
+| Reflective DLL Injection           | X            | X            | O           | △           | O           | X           | X           |
+| Thread Injection                   | O            | O            | O           | O           | O           | O           | X           |
+| Trampoline API Hooking             | O            | O            | O           | O           | X           | X           | X           |
