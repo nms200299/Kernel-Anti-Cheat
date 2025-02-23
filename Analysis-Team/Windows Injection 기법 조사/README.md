@@ -15,11 +15,11 @@
 |DLL Injection (NtCreateThread)|X|X|O|O|O|O|O|
 |DLL Injection (SetWindowsHookEx)|O|O|O|O|O|O|O|
 |IAT Hooking|O|O|O|O|O|O|O|
-|PE Injection (CreateRemoteThread)|O|O|O|O|O|O|X|
+|PE Injection (CreateRemoteThread)|X|X|O|O|O|O|O|
 |PE Injection (NTCreateThreadEX)|X|X|O|O|O|O|O|
-|Process Hollowing|X|X|O|O|O|O|O|
-|Reflective DLL Injection|X|X|O|X|O|X|X|
-|Thread Injection|O|O|O|O|O|O|O|
-|Trampoline API Hooking|O|O|O|O|O|O|X|
+|Process Hollowing|O|O|O|O|O|O|O|
+|Reflective DLL Injection|X|X|O|△|O|X|X|
+|Thread Injection|O|O|O|O|O|O|X|
+|Trampoline API Hooking|O|O|O|O|X|X|X|
 
 
