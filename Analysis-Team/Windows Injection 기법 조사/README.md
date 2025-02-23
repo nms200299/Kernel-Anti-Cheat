@@ -17,7 +17,7 @@
 | IAT Hooking                        | O            | O            | O           | O           | O           | O           | O           |
 | PE Injection (CreateRemoteThread)  | X            | X            | O           | O           | O           | O           | O           |
 | PE Injection (NTCreateThreadEX)    | X            | X            | O           | O           | O           | O           | O           |
-| Process Hollowing                  | O            | O            | O           | O           | O           | O           | O           |
-| Reflective DLL Injection           | X            | X            | O           | △           | O           | X           | X           |
-| Thread Injection                   | O            | O            | O           | O           | O           | O           | X           |
-| Trampoline API Hooking             | O            | O            | O           | O           | X           | X           | X           |
+| Process Hollowing                  | O            | O            | O           | O           | O           | O           | X           |
+| Reflective DLL Injection           | O            | O            | O           | O           | O           | O           | O           |
+| Thread Injection                   | X            | X            | O           | △           | O           | X           | X           |
+| Trampoline API Hooking             | O            | O            | O           | O           | O           | O           | X           |
