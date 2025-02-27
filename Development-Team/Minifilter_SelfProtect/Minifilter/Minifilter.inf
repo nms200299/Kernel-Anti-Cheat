@@ -1,0 +1,78 @@
+;
+; minifilter inf
+;
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "ActivityMonitor"
+ClassGuid   = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
+Provider    = %ProviderString%
+DriverVer   = 23/11/2021,1.0.0.1
+CatalogFile = minifilter.cat
+
+[DestinationDirs]
+DefaultDestDir          = 12                  ; %windir%\system32\drivers
+MiniFilter.DriverFiles  = 12
+
+;
+; Default install sections
+;
+
+[DefaultInstall]
+OptionDesc          = %ServiceDescription%
+CopyFiles           = MiniFilter.DriverFiles
+
+[DefaultInstall.Services]
+AddService          = %ServiceName%,,MiniFilter.Service
+
+[DefaultUninstall]
+DelFiles            = MiniFilter.DriverFiles
+
+[DefaultUninstall.Services]
+DelService          = %ServiceName%,0x200      ; Ensure service is stopped before deleting
+
+;
+; Services Section
+;
+
+[MiniFilter.Service]
+DisplayName      = %ServiceName%
+Description      = %ServiceDescription%
+ServiceBinary    = %12%\%DriverName%.sys       ; %windir%\system32\drivers
+Dependencies     = "FltMgr"
+ServiceType      = 2                           ; SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 3                           ; SERVICE_DEMAND_START
+ErrorControl     = 1                           ; SERVICE_ERROR_NORMAL
+LoadOrderGroup   = "FSFilter Activity Monitor"
+AddReg           = MiniFilter.AddRegistry
+
+[MiniFilter.AddRegistry]
+HKR,"Instances","DefaultInstance",0x00000000,%DefaultInstance%
+HKR,"Instances\"%Instance1.Name%,"Altitude",0x00000000,%Instance1.Altitude%
+HKR,"Instances\"%Instance1.Name%,"Flags",0x00010001,%Instance1.Flags%
+
+[MiniFilter.DriverFiles]
+%DriverName%.sys
+
+[SourceDisksFiles]
+MiniFilter_Context64.sys = 1
+
+[SourceDisksNames]
+1 = %DiskId1%,,,      ; Define the disk name for installation source
+
+;
+; String Section
+;
+
+[Strings]
+ProviderString          = "MiniFilter-Context"
+ServiceDescription      = "MiniFilter-Context was written by geunyeong"
+ServiceName             = "MiniFilter-Context"
+DriverName              = "MiniFilter_Context64"       ; Matches the driver binary name
+DiskId1                 = "MiniFilter-Context Device Installation Disk"
+
+; Instances specific information
+DefaultInstance         = "MiniFilter-Context"
+Instance1.Name          = "MiniFilter-Context"
+Instance1.Altitude      = "370000"                     ; Altitude for filter manager
+Instance1.Flags         = 0x0

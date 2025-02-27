@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\miniflt">
+      <UniqueIdentifier>{8ba7607b-a84e-41c6-b835-f558f25131fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\miniflt">
+      <UniqueIdentifier>{eb8993ea-e4c0-4ce5-b78f-b71297d1b982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Context">
+      <UniqueIdentifier>{e2e720d5-50fa-4cec-87f3-1d929dfaf6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Context">
+      <UniqueIdentifier>{376bda2b-5169-411f-9ac6-7ffd09cb7b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Registry">
+      <UniqueIdentifier>{9243353c-8749-400d-a652-ea57dc25f939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Registry">
+      <UniqueIdentifier>{db9162a9-a5c0-4473-bb7f-59d637a9abfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CtxInit.c">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.c">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Support.c">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="operaions.c">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryInit.c">
+      <Filter>Source Files\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfProtect.c">
+      <Filter>Source Files\miniflt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="minifilter.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="miniflt.h">
+      <Filter>Header Files\miniflt</Filter>
+    </ClInclude>
+    <ClInclude Include="ctx.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>Header Files\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="selfprotect.h">
+      <Filter>Header Files\miniflt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
