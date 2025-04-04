@@ -1,3 +1,6 @@
 #pragma once
 
-#include "resource.h"
+
+#include "Tray.h"
+#include "driverport.h"
+#include "Winproc.h"
