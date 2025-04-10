@@ -1,4 +1,4 @@
-# Unreal Engine 4 vs Unity 게임 실행 시 생성 파일 및 레지스트리 정리
+# Unreal Engine 4 & Unity 게임 생성 파일 및 레지스트리 정리
 
 ## Unreal Engine 4
 
