@@ -5,7 +5,6 @@
 //
 //  Memory Pool Tags
 //
-
 #define CTX_STRING_TAG                        'tSxC'
 #define CTX_RESOURCE_TAG                      'cRxC'
 //#define CTX_INSTANCE_CONTEXT_TAG              'cIxC'
