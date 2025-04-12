@@ -36,7 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Registration.c" />
-    <ClCompile Include="PreFileOperation.c" />
+    <ClCompile Include="FilePreOperation.c" />
     <ClCompile Include="UtilFilter.c" />
     <ClCompile Include="IsProtectPath.c" />
     <ClCompile Include="IsAllowPID.c" />
@@ -202,7 +202,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="Registration.h" />
-    <ClInclude Include="PreFileOperation.h" />
+    <ClInclude Include="FilePreOperation.h" />
     <ClInclude Include="global.h" />
     <ClInclude Include="UtilFilter.h" />
     <ClInclude Include="IsProtectPath.h" />

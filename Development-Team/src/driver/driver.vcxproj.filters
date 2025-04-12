@@ -39,7 +39,7 @@
     <ClCompile Include="Registration.c">
       <Filter>Source Files\Filter</Filter>
     </ClCompile>
-    <ClCompile Include="PreFileOperation.c">
+    <ClCompile Include="FilePreOperation.c">
       <Filter>Source Files\Filter</Filter>
     </ClCompile>
     <ClCompile Include="UtilFilter.c">
@@ -70,7 +70,7 @@
     <ClInclude Include="Registration.h">
       <Filter>Source Files\Filter</Filter>
     </ClInclude>
-    <ClInclude Include="PreFileOperation.h">
+    <ClInclude Include="FilePreOperation.h">
       <Filter>Source Files\Filter</Filter>
     </ClInclude>
     <ClInclude Include="global.h">
