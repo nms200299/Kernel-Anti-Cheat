@@ -1,0 +1,2 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+D:\Setup\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(486,5): error MSB8040: 이 프로젝트에는 스펙터 완화된 라이브러리가 필요합니다. 사용되는 모든 도구 세트 및 아키텍처의 경우 Visual Studio 설치 관리자(개별 구성 요소 탭)에서 설치하세요. 자세한 정보: https://aka.ms/Ofhn4c
