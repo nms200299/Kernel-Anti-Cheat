@@ -5,11 +5,11 @@ _gHandle gHandle;
 
 FLT_OPERATION_REGISTRATION OperationCallback[] = {
     {IRP_MJ_CREATE,
-        0, PreFileOperation, NULL},
+        0, FilePreOperation, NULL},
     {IRP_MJ_WRITE,
-        0, PreFileOperation, NULL},
+        0, FilePreOperation, NULL},
     {IRP_MJ_SET_INFORMATION,
-        0, PreFileOperation, NULL},
+        0, FilePreOperation, NULL},
     { IRP_MJ_OPERATION_END }
 };
 

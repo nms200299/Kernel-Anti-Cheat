@@ -14,5 +14,4 @@ BOOLEAN IsAllowPID(_In_ ULONG AccessPID) {
             return FALSE;
         } // 그외 PID는 FALSE 반환
     }
-    return FALSE;
 }
