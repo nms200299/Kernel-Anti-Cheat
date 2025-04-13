@@ -3,7 +3,7 @@
 #include "UtilFilter.h"
 
 FLT_PREOP_CALLBACK_STATUS
-PreFileOperation(
+FilePreOperation(
     _Inout_ PFLT_CALLBACK_DATA Data,
     _In_ PCFLT_RELATED_OBJECTS FltObjects,
     _Flt_CompletionContext_Outptr_ PVOID* CompletionContext
@@ -34,6 +34,11 @@ PreFileOperation(
     } // 접근하는 경로가 보호할 경로가 아니면 return
 
 
+    //DbgPrint("Full name: %wZ\n", &FileInfo->Name);
+    //DbgPrint("Volume name: %wZ\n", &FileInfo->Volume);
+    //DbgPrint("FinalComponent: %wZ\n", &FileInfo->FinalComponent);
+    //DbgPrint("ParentDir: %wZ\n\n", &FileInfo->ParentDir);
+
     ULONG AccessPID = FltGetRequestorProcessId(Data);
     // 접근하는 PID 획득
 
@@ -44,7 +49,7 @@ PreFileOperation(
     } // 접근하는 PID가 허용된 PID면 return
 
     if (IsBlockOpt) {
-        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(CREATE/DEL_ON_CLOSE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, Data->Iopb->MajorFunction, &FileInfo->FinalComponent);
+        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(CREATE/DEL_ON_CLOSE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, &FileInfo->FinalComponent);
         return FLT_OP_DENIED_(Data);
         // FILE_DELETE_ON_CLOSE 옵션이 보호할 경로에 걸리면 차단
     } 
@@ -52,7 +57,7 @@ PreFileOperation(
 
     switch (Data->Iopb->MajorFunction) {
         case IRP_MJ_WRITE: {
-            DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(WRITE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, Data->Iopb->MajorFunction, &FileInfo->FinalComponent);
+            DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(WRITE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, &FileInfo->FinalComponent);
             return FLT_OP_DENIED_(Data);
             break;
         } // 파일 쓰기 요청 차단
@@ -65,7 +70,7 @@ PreFileOperation(
                 case FileDispositionInformation: {
                     PFILE_DISPOSITION_INFORMATION DispositionInfo = (PFILE_DISPOSITION_INFORMATION)FileInfoBuffer;
                     if (DispositionInfo->DeleteFile) {
-                        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(DELETE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, Data->Iopb->MajorFunction, &FileInfo->FinalComponent);
+                        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(DELETE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, &FileInfo->FinalComponent);
                         return FLT_OP_DENIED_(Data);
                     }
                     break;
@@ -74,7 +79,7 @@ PreFileOperation(
                 case FileDispositionInformationEx:{
                     PFILE_DISPOSITION_INFORMATION_EX DispositionInfoEx = (PFILE_DISPOSITION_INFORMATION_EX)FileInfoBuffer;
                     if (DispositionInfoEx->Flags != FILE_DISPOSITION_DO_NOT_DELETE) {
-                        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(DELETE_EX)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, Data->Iopb->MajorFunction, &FileInfo->FinalComponent);
+                        DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(DELETE_EX)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, &FileInfo->FinalComponent);
                         return FLT_OP_DENIED_(Data);
                     }
                 } // 파일 삭제 요청 차단 (NtDeleteFile() 등) 
@@ -83,7 +88,7 @@ PreFileOperation(
                 case FileRenameInformationBypassAccessCheck:
                 case FileRenameInformationEx:
                 case FileRenameInformationExBypassAccessCheck:{
-                    DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(MOVE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, Data->Iopb->MajorFunction, &FileInfo->FinalComponent);
+                    DBG_PRINT(DBG_LEVEL_WARN, __func__, "File Request Denied : PID(%lu)\tIRP(MOVE)\tPath(%wZ)\n", (ULONG)(ULONG_PTR)AccessPID, &FileInfo->FinalComponent);
                     return FLT_OP_DENIED_(Data);
                 } // 파일 이동, 이름 변경 요청 차단 (MoveFile() 등) 
             }
@@ -94,5 +99,4 @@ PreFileOperation(
             break;
         } // 위 조건에 해당하지 않은 IRP 메시지는 허용
     }
-    return FLT_PREOP_SUCCESS_NO_CALLBACK;
 }
