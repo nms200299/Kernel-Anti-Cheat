@@ -1,0 +1,10 @@
+#pragma once
+
+NTSTATUS GetFileInformation_(
+    _In_ PFLT_CALLBACK_DATA Data,
+    _Out_ PFLT_FILE_NAME_INFORMATION* FileInfo
+);
+
+FLT_PREOP_CALLBACK_STATUS FLT_OP_DENIED_(
+    PFLT_CALLBACK_DATA Data
+);

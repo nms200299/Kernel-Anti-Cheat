@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{c8b3d830-6b7e-4674-a77e-9fb810542a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="etc\Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Filter">
+      <UniqueIdentifier>{90ac50a2-5bac-485f-8b30-be0a3a999b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Policy">
+      <UniqueIdentifier>{1fabe599-a6f3-4cbb-92cc-e9c1f8e37695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="driver.inf">
+      <Filter>etc\Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registration.c">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePreOperation.c">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilFilter.c">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="IsProtectPath.c">
+      <Filter>Source Files\Policy</Filter>
+    </ClCompile>
+    <ClCompile Include="IsAllowPID.c">
+      <Filter>Source Files\Policy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="driver.rc">
+      <Filter>etc\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registration.h">
+      <Filter>Source Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePreOperation.h">
+      <Filter>Source Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilFilter.h">
+      <Filter>Source Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="IsProtectPath.h">
+      <Filter>Source Files\Policy</Filter>
+    </ClInclude>
+    <ClInclude Include="IsAllowPID.h">
+      <Filter>Source Files\Policy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

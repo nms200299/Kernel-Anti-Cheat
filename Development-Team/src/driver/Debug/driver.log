@@ -1,0 +1,20 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\driver.inf
+  Stamping [Version] section with DriverVer=04/13/2025,18.57.13.77
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\driver.inf : warning 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\driver.inf(23-23): warning 1421: Section [DefaultInstall] should have an architecture decoration.
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\driver.inf(34-34): warning 1421: Section [DefaultUninstall] should have an architecture decoration.
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\driver.inf(72-72): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  Registration.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\Registration.c(1,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  FilePreOperation.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\FilePreOperation.c(1,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  UtilFilter.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\UtilFilter.c(1,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  IsProtectPath.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\IsProtectPath.c(1,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  IsAllowPID.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\IsAllowPID.c(1,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  main.c
+C:\Users\2N\Desktop\Kernel-Anti-Cheat\Development-Team\src\driver\main.c(10,10): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\driver.pch': No such file or directory
+  코드를 생성하고 있습니다...
