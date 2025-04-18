@@ -1,0 +1,21 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\driver.inf
+  Stamping [Version] section with DriverVer=04/19/2025,1.53.58.631
+C:\Users\user\source\repos\driver\driver\driver.inf : warning 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+C:\Users\user\source\repos\driver\driver\driver.inf(23-23): warning 1421: Section [DefaultInstall] should have an architecture decoration.
+C:\Users\user\source\repos\driver\driver\driver.inf(34-34): warning 1421: Section [DefaultUninstall] should have an architecture decoration.
+C:\Users\user\source\repos\driver\driver\driver.inf(72-72): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  main.c
+  driver.vcxproj -> C:\Users\user\source\repos\driver\x64\Debug\driver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\user\source\repos\driver\x64\Debug\driver.sys
+  
+  .........................
+  Signability test failed.
+  
+  Errors:
+  22.9.7: DriverVer set to a date in the future (postdated DriverVer not allowed) in driver\driver.inf.
+  
+  Warnings:
+  None
+x64\Debug\inf2catOutput.log : Inf2Cat error -2: "Inf2Cat, signability test failed." Double click to see the tool output.
