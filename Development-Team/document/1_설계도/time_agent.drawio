@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.3">
+  <diagram name="페이지-1" id="SDaurCO_U_BTPGbl2aMh">
+    <mxGraphModel dx="487" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-1" value="kernel (level 0)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-2" value="User (level 3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="100" as="sourcePoint" />
+            <mxPoint x="770" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-4" value="Anti-Cheat Driver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-5" value="Agent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-6" value="Launcher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="520" as="sourcePoint" />
+            <mxPoint x="209.71" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="359.83000000000004" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="539.71" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-10" value="1. Agent 설치" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-11" value="2. Driver 설치" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="240" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nl21Tl9tGDxFbrdTiT16-12" target="nl21Tl9tGDxFbrdTiT16-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-12" value="3. Driver 실행" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;3-1. 자가 보호 수행&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="280" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nl21Tl9tGDxFbrdTiT16-15" target="nl21Tl9tGDxFbrdTiT16-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-15" value="4. Agent 실행" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="nl21Tl9tGDxFbrdTiT16-16" target="nl21Tl9tGDxFbrdTiT16-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;4-1. 드라이버와 Port 통신&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="320" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;4-2. Port Open&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-20" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nl21Tl9tGDxFbrdTiT16-21" target="nl21Tl9tGDxFbrdTiT16-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;5. 통신 성공 시 게임 실행&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.88" y="520" as="sourcePoint" />
+            <mxPoint x="689.71" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-23" value="5-1. 게임 실행 시&lt;div&gt;Anti-Cheat 실행&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;6. Anti-Cheat 수행&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" parent="1" source="nl21Tl9tGDxFbrdTiT16-25" target="nl21Tl9tGDxFbrdTiT16-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;7-1. 탐지 후 차단, Agent 에게 전송&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-29" value="Game Hack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-30" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="849.88" y="520" as="sourcePoint" />
+            <mxPoint x="849.71" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.013;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nl21Tl9tGDxFbrdTiT16-32" target="nl21Tl9tGDxFbrdTiT16-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-32" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;7. 게임 핵 인젝션&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="440" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-35" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;8. 실행 차단&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="480" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.822;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" parent="1" source="nl21Tl9tGDxFbrdTiT16-35" target="nl21Tl9tGDxFbrdTiT16-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-39" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;7-2. 관련 정보를 서버에 전송&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="440" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nl21Tl9tGDxFbrdTiT16-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;" parent="1" source="nl21Tl9tGDxFbrdTiT16-39" target="nl21Tl9tGDxFbrdTiT16-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
